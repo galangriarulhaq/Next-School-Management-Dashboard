@@ -900,6 +900,24 @@ export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
+    start: new Date(2025, 1, 16, 8, 0),
+    end: new Date(2025, 1, 16, 8, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 1, 16, 9, 0),
+    end: new Date(2025, 1, 16, 9, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 1, 16, 10, 0),
+    end: new Date(2025, 1, 16, 10, 45),
+  },
+  {
+    title: "Math",
+    allDay: false,
     start: new Date(2025, 1, 17, 8, 0),
     end: new Date(2025, 1, 17, 8, 45),
   },
