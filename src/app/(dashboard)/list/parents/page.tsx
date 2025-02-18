@@ -56,12 +56,12 @@ const ParentListPage = () => {
         <div className="flex items-center gap-2">
           <Link href={`/list/parents/${item.id}`}>
             <button className="w-7 h-7 flex items-center justify-center rounded-full bg-sSky">
-              <Image src="/view.png" alt="view" width={16} height={16} />
+              <Image src="/edit.png" alt="Edit" width={16} height={16} />
             </button>
           </Link>
           {role === "admin" && (
             <button className="w-7 h-7 flex items-center justify-center rounded-full bg-sPurple">
-              <Image src="/delete.png" alt="view" width={16} height={16} />
+              <Image src="/delete.png" alt="Delete" width={16} height={16} />
             </button>
           )}
         </div>
