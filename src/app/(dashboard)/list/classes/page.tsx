@@ -1,7 +1,7 @@
 import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
-import { classesData, role, subjectsData } from "@/lib/data";
+import { classesData, role } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 
