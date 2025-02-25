@@ -40,7 +40,7 @@ const AnnouncementListPage = () => {
       <td className="hidden md:table-cell">{item.date}</td>
       <td>
         <div className="flex items-center gap-2">
-          <Link href={`/list/lessons/${item.id}`}>
+          <Link href={`/list/announcements/${item.id}`}>
             <button className="w-7 h-7 flex items-center justify-center rounded-full bg-sSky">
               <Image src="/edit.png" alt="Edit" width={16} height={16} />
             </button>
