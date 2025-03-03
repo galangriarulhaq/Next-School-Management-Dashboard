@@ -1,5 +1,6 @@
 import Announcements from "@/components/Announcements";
 import BigCalendar from "@/components/BigCalendar";
+import FormModal from "@/components/FormModal";
 import Performance from "@/components/Performance";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,7 +18,28 @@ const SingleTeacherPage = () => {
               <Image src="/me.png" alt="Profile Teacher" width={144} height={144} className="w-36 h-36 rounded-full object-cover" />
             </div>
             <div className="w-2/3 flex flex-col justify-between gap-4">
-              <h1 className="text-xl font-semibold">Galang Riarulhaq</h1>
+              <div className="flex items-center gap-4">
+                <h1 className="text-xl font-semibold">Galang Riarulhaq</h1>
+                <FormModal
+                  table="teacher"
+                  type="update"
+                  data={{
+                    id: 1,
+                    name: "Galang Riarulhaq",
+                    username: "galangriaruhaq",
+                    email: "galangriaruhaq@gmail",
+                    password: "password",
+                    firstName: "Galang",
+                    lastName: "Riarulhaq",
+                    phone: "+62 812 3456 789",
+                    address: "Jl. Raya No. 1",
+                    bloodType: "A+",
+                    dateOfBirth: "2025-12-31",
+                    sex: "male",
+                    img: "/me.png",
+                  }}
+                />
+              </div>
               <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deserunt dignissimos fugiat facere obcaecati consequatur.</p>
               <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
                 <div className="w-full md:w-1/3 lg:w-full flex items-center gap-2">
