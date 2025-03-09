@@ -98,6 +98,12 @@ const TeacherListPage = async ({ searchParams }: { searchParams: { [key: string]
                 classId: parseInt(value),
               },
             };
+            break;
+          case "search":
+            query.name = {
+              contains: value,
+              mode: "insensitive",
+            };
         }
       }
     }
