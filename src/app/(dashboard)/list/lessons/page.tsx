@@ -71,6 +71,8 @@ const LessonListPage = async ({ searchParams }: { searchParams: { [key: string]:
           case "search":
             query.OR = [{ subject: { name: { contains: value, mode: "insensitive" } } }, { teacher: { name: { contains: value, mode: "insensitive" } } }];
             break;
+          default:
+            break;
         }
       }
     }

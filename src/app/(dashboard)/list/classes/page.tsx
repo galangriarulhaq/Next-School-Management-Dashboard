@@ -78,6 +78,8 @@ const ClassListPage = async ({ searchParams }: { searchParams: { [key: string]: 
               mode: "insensitive",
             };
             break;
+          default:
+            break;
         }
       }
     }
