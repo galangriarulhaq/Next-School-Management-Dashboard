@@ -115,7 +115,7 @@ const AssignmentListPage = async ({ searchParams }: { searchParams: { [key: stri
     <div className="bg-white rounded-md flex-1 p-4 m-4 mt-0">
       {/* TOP */}
       <div className="flex items-center justify-between">
-        <h1 className="hidden md:block text-lg font-semibold">All Assigments</h1>
+        <h1 className="hidden md:block text-lg font-semibold">All Assignments</h1>
         <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
           <TableSearch />
           <div className="flex items-center gap-4 self-end">
