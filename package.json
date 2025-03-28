@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/elements": "^0.23.2",
-    "@clerk/nextjs": "^6.12.5",
+    "@clerk/nextjs": "^5.4.1",
     "@hookform/resolvers": "^4.1.2",
     "@prisma/client": "^6.4.1",
     "@types/react-big-calendar": "^1.16.1",
